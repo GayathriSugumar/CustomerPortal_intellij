@@ -1,0 +1,50 @@
+java LegalEdge:
+
+
+JAVA_HOME
+
+C:\Program Files\Java\jdk1.8.0_202
+
+%JAVA_HOME%\bin
+
+_____________________________________________________
+
+17 version  - 
+
+
+JAVA_HOME  - C:\Program Files\Java\jdk-17
+
+PATH               - C:\Program Files\Java\jdk-17\bin
+
+
+
+ switch (selectedOption) {
+		      case 'Professional Servise Agreement(PSA)':
+		        window.location.href = 'PAS.jsp'; // Replace 'next_page_psa.html' with the actual URL of the next page for PSA.
+		        break;
+		      /* case 'Professional Design Servise Agreement(PDSA)':
+		        window.location.href = ''; // Replace 'next_page_pdsa.html' with the actual URL of the next page for PDSA.
+		        break; */
+		      case 'other':
+		        window.location.href = 'OtherTypeOfAgreement.jsp'; // Replace 'next_page_other.html' with the actual URL of the next page for the 'other' option.
+		        break;
+		     /*  case 'Amendment to Existing PSA, PDSA, or Other Agreement':
+			        window.location.href = 'AmendmentToExisitingPSAPDSA.jsp'; // Replace 'next_page_other.html' with the actual URL of the next page for the 'other' option.
+			        break;
+		      case 'Ordinance':
+			        window.location.href = 'Ordinance.jsp'; // Replace 'next_page_other.html' with the actual URL of the next page for the 'other' option.
+			        break;
+		      case 'Legal Opinion':
+			        window.location.href = 'LegalOpinion.jsp'; // Replace 'next_page_other.html' with the actual URL of the next page for the 'other' option.
+			        break;
+		      case 'City Attorney Signature and Routing Only':
+			        window.location.href = 'CityAttorneySignature.jsp'; // Replace 'next_page_other.html' with the actual URL of the next page for the 'other' option.
+			        break;
+		      case 'Review Document and Comment/Advise':
+			        window.location.href = 'ReviewDocumentAndComment.jsp'; // Replace 'next_page_other.html' with the actual URL of the next page for the 'other' option.
+			        break; */
+		      default:
+		        // Handle any default case or error scenario.
+		        break;
+
+
